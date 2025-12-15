@@ -1,1 +1,5 @@
-# Thurs_27673_Gabriella_Concertbooking_db
+# CONCERT BOOKING SYSTEM- ORACLE PL/SQL CAPSTONE PROJECT
+
+# Student Information
+# NAME: UCYEYE Gabriella
+# 
