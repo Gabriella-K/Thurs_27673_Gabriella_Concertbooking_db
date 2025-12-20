@@ -5,6 +5,9 @@
 - **Student ID:** 27673
 - **Course:** PL/SQL Database management
 
+## Link to the slides summarizing the system
+https://docs.google.com/presentation/d/15IW5BB0VysonDIdkEp9Ubaj3VEVc_GG9/edit?usp=drive_link&ouid=102055312372641399470&rtpof=true&sd=true
+
 ## Project Overview
 This project is a database-driven Concert Booking System developed using PL/SQL. It manages concerts, tickets, customers, and bookings while enforcing business rules directly at the database level. The system implements dynamic ticket pricing based on demand, seat type, and time to the concert, as well as loyalty-based discounts for customers. Triggers are used to automate auditing, validate bookings, and maintain data integrity. Packages and procedures centralize booking operations, reporting, and price updates, demonstrating effective use of PL/SQL for real-world transactional systems.
 
