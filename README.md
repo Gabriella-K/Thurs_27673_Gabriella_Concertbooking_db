@@ -6,7 +6,7 @@
 - **Course:** PL/SQL Database management
 
 ## Project Overview
-A smart ticketing system that automates concert bookings across Rwanda with dynamic pricing, loyalty rewards, and comprehensive analytics.
+This project is a database-driven Concert Booking System developed using PL/SQL. It manages concerts, tickets, customers, and bookings while enforcing business rules directly at the database level. The system implements dynamic ticket pricing based on demand, seat type, and time to the concert, as well as loyalty-based discounts for customers. Triggers are used to automate auditing, validate bookings, and maintain data integrity. Packages and procedures centralize booking operations, reporting, and price updates, demonstrating effective use of PL/SQL for real-world transactional systems.
 
 ## Key objectives
 - Automatically adjust ticket prices based on demand, time until concert, seat type, and day of week
@@ -23,8 +23,11 @@ A smart ticketing system that automates concert bookings across Rwanda with dyna
 ## ER Diagram
 Shows the database schema, emphasizing on the relationship between entities.
 ![ER diagram](https://github.com/Gabriella-K/Thurs_27673_Gabriella_Concertbooking_db/blob/6a7b567e0c43d20c1f0ab3b36da5729a21bf0399/Screenshot/ER.png)
-## OEM 
-Oracle Enterprise helps to monitor all the process on the port of 1521
+
+## Business Process Model Notation(BPMN)
+This BPMN represents the workflow of a concert ticket booking system. Customers select a concert and request a booking. The system checks seat availability and calculates the ticket price dynamically using PL/SQL logic based on demand, seat type, and time to the event. Loyalty discounts are applied automatically. Database triggers validate bookings, update seat availability, and record audit logs. Finally, the booking is confirmed and reported to management for monitoring sales and performance.
+
+![BPMN](https://github.com/Gabriella-K/Thurs_27673_Gabriella_Concertbooking_db/blob/bc5787463b4f98ad5d2beac0688a88c7895ea7fb/Screenshot/BPMN.jpeg)
 
 ## Setup Guide
 First we created the pluggable database with enough tablespace and granted all privileges to the admin
@@ -328,6 +331,12 @@ END;
 ![Triggerf](https://github.com/Gabriella-K/Thurs_27673_Gabriella_Concertbooking_db/blob/6a7b567e0c43d20c1f0ab3b36da5729a21bf0399/Screenshot/triggerf.png)
 ![Trigger](https://github.com/Gabriella-K/Thurs_27673_Gabriella_Concertbooking_db/blob/6a7b567e0c43d20c1f0ab3b36da5729a21bf0399/Screenshot/Trigger.png)
 
+## Testing and Results
+![Dynamic Price](https://github.com/Gabriella-K/Thurs_27673_Gabriella_Concertbooking_db/blob/4ff36afed28a7f4ac46e1656e8ef622991692b3a/Screenshot/Dynamic_Pricing_Test.png)
+![Loyalty discount](https://github.com/Gabriella-K/Thurs_27673_Gabriella_Concertbooking_db/blob/4ff36afed28a7f4ac46e1656e8ef622991692b3a/Screenshot/Loyalty_Discount_Test.png)
+![Restrictions](https://github.com/Gabriella-K/Thurs_27673_Gabriella_Concertbooking_db/blob/4ff36afed28a7f4ac46e1656e8ef622991692b3a/Screenshot/Resctrictions_Test.png)
 
-
+## CREATED BY:
+Gabriella UCYEYE
+**Email**:gabrieallaucyeye@gmail.com
  
